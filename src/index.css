@@ -5,7 +5,11 @@ body {
   font-family: "Karla", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 550px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
@@ -30,6 +34,12 @@ ol {
 
 :root {
   --violet-gradient-color: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.App {
+  max-width: 550px;
+  -webkit-box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.86);
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.86);
 }
 
 /* Navbar*/
